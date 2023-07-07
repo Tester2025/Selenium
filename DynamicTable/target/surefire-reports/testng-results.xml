@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T18:17:13 IST" name="Suite" finished-at="2023-07-06T18:18:11 IST" duration-ms="57680">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T18:17:13 IST" name="Test" finished-at="2023-07-06T18:18:11 IST" duration-ms="57680">
+      <class name="com.table.cases.Testcase">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:13 IST" name="initialization" finished-at="2023-07-06T18:17:22 IST" duration-ms="8873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:25 IST" name="testcase1" finished-at="2023-07-06T18:17:25 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:25 IST" name="testcase1" finished-at="2023-07-06T18:17:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:25 IST" name="testcase1" finished-at="2023-07-06T18:17:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:25 IST" name="testcase1" finished-at="2023-07-06T18:17:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:25 IST" name="testcase1" finished-at="2023-07-06T18:17:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcae([Ljava.lang.String;)[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:25 IST" name="testcae" data-provider="dataset" finished-at="2023-07-06T18:17:36 IST" duration-ms="10431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5ec4ff02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcae -->
+        <test-method signature="testcae([Ljava.lang.String;)[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:36 IST" name="testcae" data-provider="dataset" finished-at="2023-07-06T18:17:42 IST" duration-ms="6081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@e5cbff2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcae -->
+        <test-method signature="testcae([Ljava.lang.String;)[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:42 IST" name="testcae" data-provider="dataset" finished-at="2023-07-06T18:17:48 IST" duration-ms="5721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7bc44ce8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcae -->
+        <test-method signature="testcase2()[pri:0, instance:com.table.cases.Testcase@70ed52de]" started-at="2023-07-06T18:17:48 IST" name="testcase2" finished-at="2023-07-06T18:17:48 IST" depends-on-methods="com.table.cases.Testcase.testcase1" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- com.table.cases.Testcase -->
+      <class name="com.table.cases.Testcase2">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:17:22 IST" name="initialization" finished-at="2023-07-06T18:17:25 IST" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="testcae([Ljava.lang.String;)[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:17:48 IST" name="testcae" data-provider="dataset" finished-at="2023-07-06T18:17:59 IST" duration-ms="11787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1fb2d5e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcae -->
+        <test-method signature="testcae([Ljava.lang.String;)[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:17:59 IST" name="testcae" data-provider="dataset" finished-at="2023-07-06T18:18:06 IST" duration-ms="6209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4f9a6c2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcae -->
+        <test-method signature="testcae([Ljava.lang.String;)[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:18:06 IST" name="testcae" data-provider="dataset" finished-at="2023-07-06T18:18:11 IST" duration-ms="5514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1afd72ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcae -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:18:11 IST" name="testcase1" finished-at="2023-07-06T18:18:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:18:11 IST" name="testcase1" finished-at="2023-07-06T18:18:11 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:18:11 IST" name="testcase1" finished-at="2023-07-06T18:18:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:18:11 IST" name="testcase1" finished-at="2023-07-06T18:18:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase1()[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:18:11 IST" name="testcase1" finished-at="2023-07-06T18:18:11 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:0, instance:com.table.cases.Testcase2@76494737]" started-at="2023-07-06T18:18:11 IST" name="testcase2" finished-at="2023-07-06T18:18:11 IST" depends-on-methods="com.table.cases.Testcase2.testcase1" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- com.table.cases.Testcase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
